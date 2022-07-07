@@ -7,14 +7,15 @@ export const Form = () => {
         console.log(data);
     };
 
-    const { register,
+    const {
+        register,
         handleSubmit,
         formState: { errors }
     } = useForm();
 
     return (
         <Wrapper>
-            <Bar>Try it free 7 days then $20/mo. thereafter</Bar>
+            <Bar>Try it free 7 days then $20/month</Bar>
             <StyledForm onSubmit={handleSubmit(onSubmit)}>
                 <Input
                     placeholder="First Name"
