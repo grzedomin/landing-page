@@ -20,7 +20,7 @@ export const Header = styled.h1`
     }
 `;
 
-export const Text = styled.p`
+export const Content = styled.p`
     font-size: 20px;
     margin: 0;
     

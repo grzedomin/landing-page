@@ -1,14 +1,14 @@
 import Container from "./Container";
-import { DescriptionContainer } from "./DescriptionContainer";
+import { Text } from "./Text";
 import { Form } from "./Form";
+
 function App() {
   return (
     <Container>
-      <DescriptionContainer />
-      <Form></Form>
+      <Text />
+      <Form />
     </Container>
 
   );
-}
-
+};
 export default App;
