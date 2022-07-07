@@ -1,19 +1,29 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.section`
-    
+     @media(max-width: 767px){
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
 `;
 
 export const Bar = styled.p`
     background-color: #6055a5;
     margin-bottom: 20px;
-    height: 65px;
+    margin-top: 0;
+    padding: 15px;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 18px;
     box-shadow: 0 6px rgb(62 60 73 / 30%);
+    text-align: center;
+
+    @media(max-width: 767px){
+        font-size: 16px;
+    }
 `;
 
 export const StyledForm = styled.form`
@@ -21,20 +31,28 @@ export const StyledForm = styled.form`
     display: flex;
     flex-direction: column;
     gap: 22px;
-    max-width: 560px;
-    width: 100%;
     padding: 36px;
     border-radius: 15px;
+
+    @media(max-width: 767px){
+        gap: 20px;
+        padding: 26px;
+       
+    }
 `;
 
 export const Input = styled.input`
-    height: 50px;
     border: 1px solid #b9b6d3;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 20px 20px;
     font-weight: 600;
     font-size: 18px;
     color: #3e3c49;
+    
+    @media(max-width: 767px){
+       font-size: 15px;
+       padding: 15px 15px;
+    }
 `;
 
 export const Button = styled.button`
@@ -53,6 +71,11 @@ export const Button = styled.button`
         background-color: #38CC96;
         cursor: pointer;
     }
+
+    @media(max-width: 767px){
+       font-size: 15px;
+       padding: 14px;
+    }
 `;
 
 export const Info = styled.p`
@@ -60,6 +83,10 @@ export const Info = styled.p`
     text-align: center;
     font-size: 15px;
     color:#b9b6d3;
+
+    @media(max-width: 767px){
+       font-size: 13px;
+    }
 `;
 
 export const Link = styled.a`
