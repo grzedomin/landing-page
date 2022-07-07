@@ -1,13 +1,29 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.form`
+export const Wrapper = styled.section`
+    
+`;
+
+export const Bar = styled.p`
+    background-color: #6055a5;
+    margin-bottom: 20px;
+    height: 65px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 6px rgb(62 60 73 / 30%);
+`;
+
+export const StyledForm = styled.form`
     background: #fff;
     display: flex;
     flex-direction: column;
     gap: 22px;
     max-width: 560px;
     width: 100%;
-    padding: 40px;
+    padding: 36px;
     border-radius: 15px;
 `;
 
@@ -50,11 +66,10 @@ export const Link = styled.a`
     text-decoration: none;
     font-weight:  600;
     color:#ff7a7a;
-    transition: 0.1s;
+    transition: 0.2s;
 
     &:hover {
         cursor: pointer;
         color: #F15B5B;
-
     }
 `;
