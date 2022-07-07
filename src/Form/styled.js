@@ -30,14 +30,13 @@ export const StyledForm = styled.form`
     background: #fff;
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 15px;
     padding: 36px;
     border-radius: 15px;
 
     @media(max-width: 767px){
-        gap: 20px;
+        gap: 12px;
         padding: 26px;
-       
     }
 `;
 
@@ -98,5 +97,14 @@ export const Link = styled.a`
     &:hover {
         cursor: pointer;
         color: #F15B5B;
+    }
+`;
+
+export const ErrorText = styled.p`
+    margin: 0;
+    color: #ff7a7a;
+
+    @media(max-width: 767px){
+        font-size: 14px;
     }
 `;
