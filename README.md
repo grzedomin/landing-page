@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Landing-page project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Landing-page project with form validation and error handling.
+
+### Technologies used:
+
+- HTML,
+- CSS (Flexbox),
+- Media Queries,
+- JS (ES6+),
+- React,
+- React-hook-form,
+- Styled-Components,
+
+
 
 ## Available Scripts
 
